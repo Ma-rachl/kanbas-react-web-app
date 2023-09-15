@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tbody>
+    <thead>
+    <tr>
+
+        <th valign="top" align="left">
+            <ul>
+                <li><a href="/kanbas-react-web-app/public/kanbas/profile/index.html">Account</a></li>
+                <li><a href="#">Dashbord</a></li>
+                <li><a href="/kanbas-react-web-app/public/kanbas/home.html">Courses</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Inbox</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Studio</a></li>
+                <li><a href="#">Commons</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </th>
+        <th valign="top" align="left">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Modules</a></li>
+                <li><a href="#">Piazza</a></li>
+                <li><a href="#">Zoom Meetings</a></li>
+                <li><a href="./assignments/index.html">Assignments</a></li>
+                <li><a href="#">Quizzes</a></li>
+                <li><a href="grades.html">Grades</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Panopto Video</a></li>
+                <li><a href="#">Discussions</a></li>
+                <li><a href="#">Announcements</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Files</a></li>
+                <li><a href="#">Rubrics</a></li>
+                <li><a href="#">Outcomes</a></li>
+                <li><a href="#">Collaboration</a></li>
+                <li><a href="#">Syllabus</a></li>
+                <li><a href="#">Settings Video</a></li>
+            </ul>
+        </th>
+
+        <th valign="top" align="left">
+            <p>
+                <select id="select-one-speedgrader">
+                    <option selected value="SpeedGrader">
+                        SpeedGrader
+                    </option>
+                </select>
+
+            </p>
+
+            <h2>Assignment Name</h2>
+
+
+            <p>
+                <input id="text-fields-name" placeholder="homework 1"/><br/>
+            </p>
+
+            <textarea cols="17" rows="2">Assignment Description.</textarea><br/>
+            <p>
+
+
+                <label for="text-fields-points">
+                    Points
+                </label><br/>
+                <input type="number"
+                       id="text-fields-points"
+                       placeholder="100"
+                       value="100"/><br/>
+
+            </p>
+
+            <p>
+                <label for="select-one-assignment-group">
+                    Assignment Group
+                </label><br/>
+                <select id="select-one-assignment-group">
+                    <option value="option 2"></option>
+                    <option selected value="ASSIGNMENTS">ASSIGNMENTS</option>
+                </select>
+
+            </p>
+
+
+            <p>
+                <label for="select-one-display-grade">
+                    Display Grade as
+                </label><br/>
+                <select id="select-one-display-grade">
+                    <option value="option 2"></option>
+                    <option selected value="Percentage">Percentage</option>
+                </select>
+
+            </p>
+
+
+            <p>
+                <label for="select-one-submission-type">
+                    Submission Type
+                </label><br/>
+                <select id="select-one-submission-type">
+                    <option value="option 2"></option>
+                    <option selected value="Online">Online</option>
+                </select>
+
+            </p>
+
+            <p>
+                <label for="chkbox-text">Online Entry Options</label> <br/>
+
+                <input type="checkbox" value="require"
+                       name="check-text" id="chkbox-text"/>
+                <label for="chkbox-text">Text Entry</label> <br/>
+
+                <input type="checkbox" value="require"
+                       name="check-url" id="chkbox-url"/>
+                <label for="chkbox-url">Website Url</label> <br/>
+
+                <input type="checkbox" value="require"
+                       name="check-media" id="chkbox-media"/>
+                <label for="chkbox-media">Media Recordings</label> <br/>
+
+                <input type="checkbox" value="require"
+                       name="check-annotation" id="chkbox-annotation"/>
+                <label for="chkbox-annotation">Student Annotation</label> <br/>
+
+                <input type="checkbox" value="require"
+                       name="check-upload" id="chkbox-upload"/>
+                <label for="chkbox-upload">File Upload</label> <br/>
+
+
+            </p>
+
+
+            <form>
+                <p>
+                    <label for="select-one-submission">
+                        Submission Attempts
+                    </label><br/>
+                    <select id="select-one-submission">
+                        <option value="1">1</option>
+                        <option selected value="Unlimited">
+                            Unlimited
+                        </option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                    </select>
+
+                </p>
+
+
+                <label for="select-one-plagiarism">
+                    Plagiarism review
+                </label><br/>
+                <select id="select-one-plagiarism">
+                    <option value="yes">Yes</option>
+                    <option selected value="None">
+                        None
+                    </option>
+                </select>
+
+            </form>
+
+            <p>
+                <label>Group Assignment</label>
+                <br/>
+                <input type="checkbox" value="require"
+                       name="check-group" id="chkbox-group"/>
+                <label for="chkbox-group">This is a group assignment</label> <br/>
+            </p>
+            <p>
+                <label>Peer Reviews</label>
+                <br/>
+                <input type="checkbox" value="require"
+                       name="check-peer" id="chkbox-peer"/>
+                <label for="chkbox-peer">Require Peer Reviews</label> <br/>
+            </p>
+
+
+            <h3>Assign </h3>
+            <label for="text-fields-assign">Asign to</label></br>
+            <input id="text-fields-assign" placeholder="Everyone"/><br/>
+
+
+            <form>
+                <p>
+                    <label for="text-fields-due-date">
+                        Due Date
+                    </label></br>
+                    <input type="date"
+                           id="text-fields-due-date"
+                           value="2023-01-21"/><br/>
+
+                </p>
+                <label for="text-fields-available-date">
+                    Available from
+                </label></br>
+                <input type="date"
+                       id="text-fields-available-date"
+                       value="2023-01-21"/><br/>
+                <p>
+                    <label for="text-fields-until">
+                        Available until
+                    </label></br>
+                    <input type="date"
+                           id="text-fields-until"
+                           value="2023-01-21"/><br/>
+                </p>
+
+
+            </form>
+            <button type="button">Cancel</button>
+            <button type="button">Save</button>
+
+
+        </th>
+
+
+    </tr>
+    </thead>
+    </tbody>
+
+
+</body>
+</html>
