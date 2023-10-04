@@ -108,42 +108,45 @@
                             <div class="modal-body">
                                 <nav class=" flex-column ">
 
-                                    <a class="nav-link " href="/kanbas/dashboard/index.html">
+                                    <a class="nav-link nav-bar-item" href="/kanbas/dashboard/index.html">
                                         <i class="fa fa-regular fa-chart-pie fa-2x text-danger"></i>
                                         <span class="navbar-text text-danger">Dashboard</span></a>
 
-                                    <a class="nav-link " href="/kanbas/home.html">
-                                        <i class="fa fa-regular fa-book fa-2x text-danger"></i>
+                                    <a class="nav-link nav-bar-item" href="/kanbas/home.html">
+                                        <i class="fa fa-regular fa-book fa-2x text-danger"></i> </br>
                                         <span class="text-danger">Courses</span>
                                     </a>
 
-                                    <a class="nav-link disabled " href="#">
-                                        <i class="fa fa-regular fa-calendar fa-2x text-danger"></i>
+                                    <a class="nav-link disabled nav-bar-item" href="#">
+                                        <i class="fa fa-regular fa-calendar fa-2x text-danger"></i> </br>
                                         <span class="navbar-text text-danger">Calendar</span>
                                     </a>
-                                    <a class="nav-link " href="#">
-                                        <i class="fa fa-regular fa-print fa-2x text-danger"></i>
+                                    <a class="nav-link nav-bar-item" href="#">
+                                        <i class="fa fa-regular fa-print fa-2x text-danger"></i> </br>
                                         <span class="navbar-text text-danger">Inbox</span>
                                     </a>
-                                    <a class="nav-link active " href="#">
-                                        <i class="fa fa-regular fa-clock fa-2x text-danger"></i>
+                                    <a class="nav-link active nav-bar-item" href="#">
+                                        <i class="fa fa-regular fa-clock fa-2x text-danger"></i> </br>
                                         <span class="navbar-text text-danger">History</span>
                                     </a>
-                                    <a class="nav-link " href="#">
-                                        <i class="fa fa-regular fa-stream fa-2x text-danger"></i>
+                                    <a class="nav-link nav-bar-item" href="#">
+                                        <i class="fa fa-regular fa-stream fa-2x text-danger"></i> </br>
                                         <span class="navbar-text text-danger">Studio</span>
                                     </a>
-                                    <a class="nav-link " href="#">
-                                        <i class="fa fa-regular fa-arrow-alt-circle-right fa-2x text-danger"></i>
+                                    <a class="nav-link nav-bar-item" href="#">
+                                        <i class="fa fa-regular fa-arrow-alt-circle-right fa-2x text-danger"></i> </br>
                                         <span class="navbar-text text-danger">Commons</span>
                                     </a>
-                                    <a class="nav-link disabled " href="#">
-                                        <i class="fa fa-regular fa-question-circle fa-2x text-danger"></i>
+                                    <a class="nav-link disabled nav-bar-item" href="#">
+                                        <i class="fa fa-regular fa-question-circle fa-2x text-danger"></i> </br>
                                         <span class="navbar-text text-danger">Help</span>
                                     </a>
                                 </nav>
                             </div>
-
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -160,7 +163,7 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a class="class-breadcrumb" href="#">CS5610.11744.202310</a>
                         </li>
-                        <li class="breadcrumb-item active" aria-current="page">Home</li>
+                        <li class="breadcrumb-item active" aria-current="page">Modules</li>
                     </ol>
                 </nav>
                 </div>
@@ -181,38 +184,32 @@
                             <div class="modal-body">
                                 <ul class="inner-nav-links">
 
-                                    <li class="link-padding"><a href=# class="inner-nav-links">
-                                        <i class="fa fa-home"></i>
-                                        Home</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">Home</a></li>
                                     <li class="link-padding"><a href="/kanbas/profile/index.html"
-                                                                class="inner-nav-links ">
-                                        <i class="fa fa-plug"></i>
-                                        Piazza</a></li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links">
-                                        <i class="fa fa-square"></i>
-                                        Zoom Meetings</a></li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links">
-                                        <i class="fa fa-book-reader"></i>Modules</a></li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links">
-                                        <i class="fa fa-rocket"></i>Quizzes</a></li>
-                                    <li class="link-padding"><a href="/kanbas/assignments/index.html" class="inner-nav-links">
-                                        <i class="fa fa-book-medical"></i>Assignments</a>
+                                                                class="inner-nav-links ">Piazza</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">Zoom Meetings</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">Modules</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">Quizzes</a></li>
+                                    <li class="link-padding"><a href="/kanbas/assignments/index.html" class="inner-nav-links">Assignments</a>
                                     </li>
                                     <li class="link-padding"><a href="/kanbas/grades/grades.html"
-                                                                class="inner-nav-links "><i class="fa fa-pen"></i>Grades</a></li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links"><i class="fa fa-person-booth"></i>People</a></li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links"><i class="fa fa-camera"></i>Microsoft Teams Meetings</a></li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links"><i class="fa fa-book-medical"></i>FACT Reporting and PhotoRoster</a>
+                                                                class="inner-nav-links selected-link">Grades</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">People</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">Microsoft Teams Meetings</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">FACT Reporting and PhotoRoster</a>
                                     </li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links"><i class="fa fa-envelope-open-text"></i>Discussions</a></li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links"><i class="fa fa-microphone"></i>Announcements</a></li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links"><i class="fa fa-book-dead"></i>Pages</a></li>
-                                    <li class="link-padding"><a href=# class="inner-nav-links"><i class="fa fa-file"></i>Files</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">Discussions</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">Announcements</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">Pages</a></li>
+                                    <li class="link-padding"><a href=# class="inner-nav-links">Files</a></li>
 
 
                                 </ul>
                             </div>
-
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
                         </div>
                     </div>
                 </div>

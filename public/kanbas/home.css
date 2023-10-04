@@ -1,0 +1,234 @@
+
+.wd-pos-fixed {
+    position: fixed;
+    left: 0px;
+    bottom: 50%;
+}
+
+
+.wd-dimension-portrait {
+    width: 200px;
+    height: 100%;
+}
+
+
+.wd-dimension-sidebar {
+    width: 70px;
+    height: 100%;
+}
+
+.wd-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*
+.wd-nav-icons {
+
+    text-align: center;
+    font-size: 70px;
+}
+*/
+
+
+/*!*Layer behind nav bar*!
+
+.wd-navbar {
+
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+}*/
+
+
+/*!*Layer holding all the icon objects*!
+.list-group {
+
+    background-color: 000000;
+    align-items: center;
+    text-align: center;
+    font-size: 57px;
+    width: 80px;
+    border: 0px;
+    position: fixed;
+
+}
+
+.list-group-item {
+    font-size: 12px;
+    margin: 6px;
+    padding: 6px;
+    background-color: transparent !important;
+}*/
+
+
+/*!*Northeastern logo *!
+.nav-logos {
+    background-color: transparent;
+    width: 40px;
+    align-items: center;
+
+
+}*/
+
+/*!*All of the other icons besides northeastern an account*!
+.icon-color {
+    background-color: transparent;
+    color: #c8102e;
+    text-align: center;
+    align-items: center;
+
+
+}*/
+
+/*
+!*Account icon*!
+.account-icon-color {
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+*/
+
+
+.wd-profile-column {
+    color: grey;
+    padding-top: 60px;
+}
+
+
+.wd-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-flex-grow-1 {
+    flex-grow: 1;
+}
+
+
+/*ERERERER*/
+
+.wd-dimension-sidebar {
+    width: 75px;
+    height: 100%;
+}
+
+.wd-dimension-portrait {
+    width: 75px;
+    height: 100px;
+}
+
+.wd-dimension-landscape {
+    width: 100px;
+    height: 75px;
+}
+
+/*
+.wd-dimension-square {
+    width: 75px;
+    height: 75px;
+}
+*/
+
+
+.inner-nav-links-home {
+    text-decoration: none;
+    color: #c8102e;
+    list-style-type: none;
+    width: 200px;
+    align: left;
+    margin-left: 300px;
+    margin-top: -30px;
+
+
+}
+
+.breadcrumb-spacing {
+    padding-top: 5px;
+    margin-left: 180px;
+
+}
+
+
+
+a#class-breadcrumb {
+
+    color: #c8102e;
+    text-decoration: none;
+}
+
+.wd-inner-nav-home {
+    margin-left: -200px;
+    postion: fixed;
+
+}
+
+/*also used by dashboard index*/
+
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.burger-icon {
+    margin-left: 130px;
+
+}
+
+
+/*Module*/
+.modules{
+    margin-top: -600px;
+    margin-left: 300px;
+}
+
+.module-group {
+    background-color: white;
+    text-align: center;
+    font-size: 57px;
+    border: solid;
+    border: 2px;
+    max-width: 100%;
+}
+
+.module-item {
+
+
+    font-size: 12px;
+    margin: 5px;
+    justify-content: space-between;
+    border: solid;
+    align-self: flex-start;
+    max-width: 100%;
+    display: flex !important;
+    align-items: self-end;
+    background-color: transparent ;
+}
+
+.space {
+
+    flex-grow: 1;
+    min-width: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.todo-list-links{
+    font-size: 10px;
+}
+
+.todo-list-titles{
+    font-size: 13px;
+}
+
+.home-headline{
+    margin-top:-1000px
+}

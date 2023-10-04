@@ -1,0 +1,33 @@
+
+/*Inner navigation bar*/
+.wd-inner-nav{
+    margin-top: 10px;
+    width:200px;
+    margin-left:20px;
+}
+
+.inner-nav-links {
+    text-decoration: none;
+    color: #c8102e;
+    list-style-type: none;
+    padding: 8px;
+    width: 200px;
+    align: left;
+
+
+
+}
+
+.selected-link{
+    color:black !important;
+    border-left: solid black !important;
+    border-spacing: 8px;
+
+}
+
+
+.link-padding {
+    font-family: Verdana;
+    font-size: 14px;
+    margin-bottom: 15px;
+}

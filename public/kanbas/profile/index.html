@@ -2,64 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href="/vendors/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/vendors/fontawesome/css/all.css" rel="stylesheet"/>
+
+    <link href="/kanbas/dashboard/index.css" rel="stylesheet"/>
+    <link href="/kanbas/navbar.css" rel="stylesheet"/>
+
+    <link href="/kanbas/profile/profile.css" rel="stylesheet"/>
+    <link href="/kanbas/innernav.css" rel="stylesheet"/>
 </head>
+
+
 <body>
-<table>
-    <tbody>
-    <thead>
-    <tr>
+<div class="row no-margin-padding">
 
-        <th valign="top" align="left">
-            <ul>
-                <li><a href="/kanbas/profile/index.html">Account</a></li>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="/kanbas/home.html">Courses</a></li>
-                <li><a href="#">Calendar</a></li>
-                <li><a href="#">Inbox</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Commons</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </th>
-        <th valign="top" align="left">
-            <ul>
-                <li><a href="#">Notifications</a></li>
-                <li><a href="/kanbas/profile/index.html">Profile</a></li>
-                <li><a href="#">Files</a></li>
-                <li><a href="#">Settings</a></li>
-                <li><a href="#">ePortfolios</a></li>
-                <li><a href="#">Shared Content</a></li>
-                <li><a href="#">The Hub</a></li>
-                <li><a href="#">Quickly Course Tools</a></li>
-            </ul>
-        </th>
-
-        <th valign="top" align="left">
-            <h2>Rachel Ma's Profile</h2>
-
-            <h1>Rachel Ma</h1>
-
-
-            <p>
-            <h2>Contact</h2>
-            No registered services, you can add some on the settings page
-            </p>
-            <h2>Biography</h2>
-            Software Developer
-            <h2>Links</h2>
-            Youtube
-        </th>
-        <th valign="top">
-            <a href="edit.html">
-                <button type="button">Edit profile</b></button>
+    <div class="wd-navbar col-lg-1 no-margin-padding d-none  d-sm-none d-md-none d-lg-block">
+        <nav class="nav flex-column nav-bar-group">
+            <a href="/kanbas/home.html" class="nav-bar-item">
+                <img class="nav-logos"
+                     src="https://brand.northeastern.edu/wp-content/uploads/2022/05/red_monogram.png"
+                     alt="Home" style="align-content: baseline"></br>
             </a>
-        </th>
+            <a class="nav-link active nav-bar-item list-group-item-selected" href="/kanbas/profile/index.html">
+                <i class="fa fa-regular fa-user fa-2x text-secondary "></i></br>
+                <span class="navbar-text text-danger ">Account</span></a>
+
+            <a class="nav-link nav-bar-item" href="/kanbas/dashboard/index.html">
+                <i class="fa fa-regular fa-chart-pie fa-2x text-danger"></i> </br>
+                <span class="navbar-text text-white">Dashboard</span></a>
+
+            <a class="nav-link nav-bar-item" href="/kanbas/home.html">
+                <i class="fa fa-regular fa-book fa-2x text-danger"></i> </br>
+                <span class="text-white">Courses</span>
+            </a>
+
+            <a class="nav-link disabled nav-bar-item" href="#">
+                <i class="fa fa-regular fa-calendar fa-2x text-danger"></i> </br>
+                <span class="navbar-text text-white">Calendar</span>
+            </a>
+            <a class="nav-link nav-bar-item" href="#">
+                <i class="fa fa-regular fa-print fa-2x text-danger"></i> </br>
+                <span class="navbar-text text-white">Inbox</span>
+            </a>
+            <a class="nav-link active nav-bar-item" href="#">
+                <i class="fa fa-regular fa-clock fa-2x text-danger"></i> </br>
+                <span class="navbar-text text-white">History</span>
+            </a>
+            <a class="nav-link nav-bar-item" href="#">
+                <i class="fa fa-regular fa-stream fa-2x text-danger"></i> </br>
+                <span class="navbar-text text-white">Studio</span>
+            </a>
+            <a class="nav-link nav-bar-item" href="#">
+                <i class="fa fa-regular fa-arrow-alt-circle-right fa-2x text-danger"></i> </br>
+                <span class="navbar-text text-white">Commons</span>
+            </a>
+            <a class="nav-link disabled nav-bar-item" href="#">
+                <i class="fa fa-regular fa-question-circle fa-2x text-danger"></i> </br>
+                <span class="navbar-text text-white">Help</span>
+            </a>
+        </nav>
+
+    </div>
 
 
-    </tr>
-    </thead>
-    </tbody>
+    <div class="wd-inner-nav col-sm-2">
+
+        <div class="wd-float-left ">
+            <i class="fa fa-regular fa-grip-lines fa-2x icon-color"></i> Rachel Ma's Profile
+        </div>
+        </br></br>
+
+
+        <ul class="inner-nav-links">
+
+            <li class="link-padding"><a href=# class="inner-nav-links">Notifications</a></li>
+            <li class="link-padding"><a href="/kanbas/profile/index.html"
+                                        class="inner-nav-links selected-link">Profile</a></li>
+            <li class="link-padding"><a href=# class="inner-nav-links">Files</a></li>
+            <li class="link-padding"><a href=# class="inner-nav-links">Settings</a></li>
+            <li class="link-padding"><a href=# class="inner-nav-links">ePortfolios</a></li>
+            <li class="link-padding"><a href=# class="inner-nav-links">Shared Content</a></li>
+            <li class="link-padding"><a href=# class="inner-nav-links">The Hub</a></li>
+            <li class="link-padding"><a href=# class="inner-nav-links">Quickly Course Tools</a></li>
+            <li class="link-padding"><a href=# class="inner-nav-links">Global Announcements</a></li>
+
+
+        </ul>
+    </div>
+
+
+    <div class="profile-information col">
+        <i class="fa fa-regular fa-user fa-7x wd-profile-column"></i></br>
+        <span class="profile-name">Rachel Ma</span>
+
+        <h3 class="profile-titles">Contact</h3>
+        No registered services, you can add some on the settings page
+        </p>
+        <h3 class="profile-titles">Biography</h3>
+        Software Developer
+        <h3 class="profile-titles">Links</h3>
+        <a href="https://www.youtube.com/@WebDevTV/featured">Youtube</a>
+
+    </div>
+    <div class="col">
+        <a href="edit.html">
+            <button id="btn btn-secondary " type="button">
+                <i class="fa fa-regular fa-pen fa-1x "></i>
+                Edit profile</b></button>
+        </a>
+    </div>
+</div>
 </body>
+
+
 </html>

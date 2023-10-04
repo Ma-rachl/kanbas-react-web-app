@@ -1,0 +1,9 @@
+
+.module-item {
+
+
+    font-size: 12px;
+    border-left:solid !important;
+    border-left-color: green !important;
+    background-color: transparent ;
+}
