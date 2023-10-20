@@ -1,10 +1,8 @@
 import {Link, useLocation} from "react-router-dom";
-//import "/Kanbas/navbar2.css";
-// import "/public/kanbas/home.css";
-// import "/public/kanbas/innernav.css";
+
 import "./navbar.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '@fortawesome/fontawesome-free/css/all.css';
+import 'font-awesome/css/font-awesome.min.css';
 import db from "../Database";
 
 function KanbasNavigation() {

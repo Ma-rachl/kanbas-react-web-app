@@ -44,7 +44,7 @@ function Assignments() {
                 <hr/>
                 <div
                     className=" list-group-item-secondary list-group-item col-sm-12 col-xs-12 col-md-12  module-item text-start">
-                    <i className="fas fa-ellipsis-v fa-2x">ASSIGNMENTS</i>
+                    <i className="fa fa-ellipsis-v fa-2x">ASSIGNMENTS</i>
                     <i className="fa fa-ellipsis-v fa-2x"></i>
                 </div>
 
@@ -72,7 +72,7 @@ function Assignments() {
                                     100 pts</p>
                             </td>
                             <td>
-                                <i className="fas fa-regular fa-ellipsis-v fa-2x assignment-icons float-end"></i>
+                                <i className="fa fa-regular fa-ellipsis-v fa-2x assignment-icons float-end"></i>
                                 <i className="fa fa-regular fa-check-circle fa-2x check-icon assignment-icons float-end"></i>
                             </td>
                         </row>

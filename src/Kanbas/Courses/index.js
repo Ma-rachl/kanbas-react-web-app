@@ -8,7 +8,8 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import "./index.css"
 
-import '@fortawesome/fontawesome-free/css/all.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -22,7 +23,7 @@ function Courses() {
     return (
         <div>
             <ol className="breadcrumb mx-4">
-                <i className="fas fa-bars fa-regular fa-2x icon-color mx-2"></i>
+                <i className="fa fa-bars fa-regular fa-2x icon-color mx-2"></i>
                 <li className="breadcrumb-item"><a className="class-breadcrumb" href="#">{course.number}</a>
                 </li>
             </ol>

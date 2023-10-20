@@ -60,7 +60,7 @@ function ModuleList() {
                                 <div className="float-end d-flex justify-content-between symbols">
 
                                     <i className="float-end fa fa-regular fa-check-circle fa-2x check-icon"></i>
-                                    <i className="float-end fas fa-regular fa-ellipsis-v fa-2x "> </i>
+                                    <i className="float-end fa fa-regular fa-ellipsis-v fa-2x "> </i>
                                 </div>
 
 

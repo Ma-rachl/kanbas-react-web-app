@@ -8,7 +8,7 @@ function Modules() {
             <div className="col d-flex justify-content-end">
 
                 <button className="btn btn-light ">
-                    <i className="fas fa-glasses mx-2"></i>
+                    <i className="fa fa-glasses mx-2"></i>
                     Student View
                 </button>
             </div>
@@ -61,7 +61,7 @@ function Modules() {
 
                 <div className="row align-items-center">
                     <div className="col-2 text-center">
-                        <i className="fa fa-calendar-day"></i>
+                        <i className="fa fa-calendar"></i>
                     </div>
                     <div className="col-10">
                         <span className="text-danger small-text">Lecture</span><br/>
@@ -72,7 +72,7 @@ function Modules() {
 
                 <div className="row mt-2 align-items-center">
                     <div className="col-2 text-center">
-                        <i className="fa fa-calendar-day"></i>
+                        <i className="fa fa-calendar"></i>
                     </div>
                     <div className="col-10">
                         <span className="text-danger small-text">Lecture</span><br/>

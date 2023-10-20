@@ -1,11 +1,12 @@
 import db from "../Database";
 // import "./index.css";
-import '@fortawesome/fontawesome-free/css/all.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Link } from "react-router-dom";
-//row row-cols-1 row-cols-md-3 g-4
+
 
 
 function Dashboard() {

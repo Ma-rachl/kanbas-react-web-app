@@ -47,7 +47,7 @@ function Home() {
 
                     <div className="row align-items-center">
                         <div className="col-2 text-center">
-                            <i className="fa fa-calendar-day"></i>
+                            <i className="fa fa-calendar"></i>
                         </div>
                         <div className="col-10">
                             <span className="text-danger small-text">Lecture</span><br/>
@@ -58,7 +58,7 @@ function Home() {
 
                     <div className="row mt-2 align-items-center">
                         <div className="col-2 text-center">
-                            <i className="fa fa-calendar-day"></i>
+                            <i className="fa fa-calendar"></i>
                         </div>
                         <div className="col-10">
                             <span className="text-danger small-text">Lecture</span><br/>
