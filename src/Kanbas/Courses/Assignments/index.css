@@ -1,0 +1,48 @@
+.module-item {
+
+
+    font-size: 12px;
+    margin: 5px;
+    justify-content: space-between;
+    border: solid;
+    align-self: flex-start;
+    max-width: 100%;
+    display: flex !important;
+    align-items: self-end;
+    background-color:lightgray !important;
+    border: solid !important;
+    border: 1px ;
+}
+
+.assignment-item{
+    font-size: 12px;
+    border-left:solid !important;
+    border-left-color: green !important;
+    background-color: transparent ;
+
+}
+
+.an-assignment{
+    border-bottom: solid #1e2125 !important;
+}
+
+.assignment-icons{
+    margin-top: 25px;
+    padding: 1px;
+    margin-left: 2px;
+}
+
+.module-group {
+    background-color: white;
+    text-align: center;
+    font-size: 57px;
+    border: solid !important;
+    border: 2px ;
+    max-width: 100%;
+}
+
+
+
+.symbols{
+    margin-bottom: 30px;
+}

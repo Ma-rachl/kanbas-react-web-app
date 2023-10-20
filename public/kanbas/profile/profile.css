@@ -1,0 +1,75 @@
+
+.profile-name {
+    font-size: 30px;
+
+
+}
+
+
+
+.profile-information {
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family: Verdana;
+}
+
+
+.profile-titles {
+    color: darkgray;
+    font-family: Verdana;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+button#edit-profile-button {
+    margin-left: -240px;
+    margin-top: 50px;
+}
+
+.pronouns-select {
+    width: 170px;
+}
+
+.profile-inputs {
+    width: 210px;
+}
+
+.biography-input {
+    width: 400px;
+}
+
+.converter-titles {
+    margin-left: 65px;
+}
+
+.converter-titles2 {
+    margin-left: -100px;
+}
+
+.url-converter2 {
+    margin-left: -140px;
+}
+
+.arrow-icon {
+    margin-left: -20px;
+    margin-top: 28px;
+}
+
+/*cancel button*/
+button#profile-button-1{
+    margin-left:200px;
+    border:none;
+    font-family: Verdana;
+}
+
+/*save button*/
+button#profile-button-2{
+    margin-left:-10px;
+    font-family: Verdana;
+}
+
+/*add another linke button*/
+button#profile-button-3{
+    font-family: Verdana;
+    border:none;
+}
