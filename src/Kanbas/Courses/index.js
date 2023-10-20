@@ -22,13 +22,29 @@ function Courses() {
     const filename = pathname.split("/").pop();
     return (
         <div>
-            <ol className="breadcrumb mx-4">
-                <i className="fa fa-bars fa-regular fa-2x icon-color mx-2"></i>
-                <li className="breadcrumb-item"><a className="class-breadcrumb" href="#">{course.number}</a>
-                </li>
-            </ol>
+            {/*<div className="breadcrumb-item mx-4">*/}
+            {/*    <i className="fa fa-bars fa-regular fa-2x icon-color mx-2"><span className="breadcrumb-item"><a className="class-breadcrumb" href="#">{course.number}</a>*/}
+            {/*        <div className="breadcrumb-item"> <span>> </span></div>*/}
+            {/*    </span></i>*/}
 
-            <h6 className="class-breadcrumb">{course.number}</h6>
+
+            {/*</div>*/}
+
+            <div className="row">
+                <div className="d-flex align-items-center">
+                    <i className="fa fa-bars fa-regular fa-2x icon-color" style={{ marginRight: '5px' }}></i>
+                    <a className="class-breadcrumb" href="#" style={{ marginRight: '5px' }}>{course.number}</a>
+                    <span style={{ marginRight: '5px' }}>&gt;</span>
+                    {filename}
+                </div>
+            </div>
+
+
+
+
+
+
+            <h6 className="class-breadcrumb mt-4">{course.number}</h6>
             <CourseNavigation />
             <div>
                 <div
