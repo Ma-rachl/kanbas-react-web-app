@@ -1,0 +1,141 @@
+/*background colors*/
+
+.wd-fg-color-white {
+    color: white;
+}
+
+
+.no-margin-padding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav-bar-group {
+
+    width: 90px;
+    background-color: black;
+    align-content: center;
+    height:100%;
+
+
+}
+
+
+.navbar-text{
+    color:white;
+    font-size: 12px;
+    font-family: Verdana;
+    align-content: center;
+
+}
+
+.nav-bar-item {
+    width: 88px;
+    margin-top:6px;
+    margin-bottom: 5px;
+    padding:5px;
+
+  /*  padding: 8px;*/
+    text-align: center;
+    align-content: center;
+}
+
+
+.nav{
+    height:100%;
+}
+
+
+
+.class-breadcrumb{
+    color: #c8102e;
+    text-decoration: none;
+}
+
+.col-sm-1{
+    width: 95px;
+}
+
+
+
+.container{
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+
+/** Layer holding all the icon objects **/
+.list-group2 {
+
+    background-color: #000000;
+    align-items: center;
+    text-align: center;
+    font-size: 57px;
+    width: 80px;
+    height: 100%;
+    border: 0px;
+    position: fixed;
+
+}
+
+
+
+
+
+/** sizing for cions name catpions **/
+.list-group-item {
+    font-size: 12px;
+    margin: 5px;
+    /*   padding: 6px;*/
+    border: none !important;
+    background-color: transparent !important;
+}
+
+/* Selected item on nav bar*/
+.list-group-item-selected {
+    background-color: white !important;
+    border: none;
+    color: #c8102e;
+
+}
+
+/*Northeastern logo */
+.nav-logos {
+    background-color: transparent;
+    width: 50px;
+    align-items: center;
+
+
+}
+
+.wd-nav-icons {
+    align-content: center;
+    text-align: center;
+    font-size: 70px;
+}
+
+
+/*All of the other icons besides northeastern an account*/
+.icon-color {
+    background-color: transparent;
+    color: #c8102e;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+
+/*Account icon*/
+.account-icon-color {
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.check-icon{
+    color:forestgreen;
+    padding-right: 3px;
+}

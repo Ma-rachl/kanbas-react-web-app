@@ -1,0 +1,15 @@
+.active-bar{
+    color:black !important;
+    border-left: solid black !important;
+    border-spacing: 8px;
+}
+
+.inner-nav-links {
+    text-decoration: none;
+    color: #c8102e;
+    list-style-type: none;
+    padding: 8px;
+    width: 200px;
+    align: left;
+
+}
