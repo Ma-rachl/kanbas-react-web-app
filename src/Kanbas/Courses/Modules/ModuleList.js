@@ -3,7 +3,7 @@ import {useParams} from "react-router-dom";
 import db from "../../Database";
 import ButtonGroupSide from "./ButtonGroupSide";
 import "./index.css"
-import { useSelector, useDispatch } from "react-redux";
+import {useSelector, useDispatch} from "react-redux";
 import {
     addModule,
     deleteModule,
@@ -77,10 +77,7 @@ function ModuleList() {
     };
 
 
-
-
     return (
-
 
 
         <div className="">
@@ -114,7 +111,7 @@ function ModuleList() {
             <ul className="list-group mt-10">
                 <li className="list-group-item">
                     {/*<button   onClick={() => dispatch(addModule({ ...module, course: courseId }))} >Add</button>*/}
-                    <button  onClick={handleUpdateModule}>
+                    <button onClick={handleUpdateModule}>
                         Update
                     </button>
                     <button
@@ -123,11 +120,11 @@ function ModuleList() {
                     </button>
 
                     <input value={module.name}
-                           onChange={(e) => dispatch(setModule({ ...module, name: e.target.value }))}
+                           onChange={(e) => dispatch(setModule({...module, name: e.target.value}))}
                     />
                     <textarea className="desc-box" value={module.description} onChange={(e) =>
 
-                    dispatch(setModule({ ...module, description: e.target.value }))}
+                        dispatch(setModule({...module, description: e.target.value}))}
                     />
                 </li>
 
@@ -147,7 +144,7 @@ function ModuleList() {
                                     </button>
 
                                     <button className="delete-button-2"
-                                            onClick={() =>handleDeleteModule(module._id)}>
+                                            onClick={() => handleDeleteModule(module._id)}>
                                         Delete
                                     </button>
 
@@ -167,16 +164,10 @@ function ModuleList() {
             </ul>
 
 
-
         </div>
 
 
-
-
-
-
-
-);
+    );
 }
 
 export default ModuleList;
