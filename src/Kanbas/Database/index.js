@@ -1,4 +1,4 @@
-import courses from "./courses.json";
+import courses from './courses.json';
 import navbar from "./navbar.json";
 import modules from "./modules.json";
 import assignments from "./assignments.json";

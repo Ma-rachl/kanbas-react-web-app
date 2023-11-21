@@ -9,13 +9,12 @@ import {Link} from "react-router-dom";
 import {useState} from "react";
 
 
-function Dashboard(
-    {courses, course, setCourse, addNewCourse,
-        deleteCourse, updateCourse }
+function Dashboard({courses, course, setCourse, addNewCourse, deleteCourse, updateCourse }) {
 
-) {
 
-    // const courses = db.courses;
+
+
+        // const courses = db.courses;
    // const [courses, setCourses] = useState(db.courses);
    //  const [course, setCourse] = useState({
    //      name: "New Course", number: "New Number",
@@ -46,6 +45,7 @@ function Dashboard(
 
 
     return (
+
         <div className="mx-5">
             <h1>Dashboard</h1>
             <hr/>
@@ -61,7 +61,13 @@ function Dashboard(
             <button onClick={addNewCourse}>
                 Add
             </button>
-            <button onClick={updateCourse}>
+            <button onClick={(event) => {
+                event.preventDefault();
+                updateCourse(course);
+            }}>
+
+
+
                 Update
             </button>
 
@@ -83,6 +89,7 @@ function Dashboard(
                                         </button>
                                     </div>
                                     <div className="button-right">
+
                                         <button className="delete-button"
                                                 onClick={(event) => {
                                                     event.preventDefault();
@@ -101,7 +108,7 @@ function Dashboard(
                                     <h5 className="card-title">{course.name}</h5>
 
 
-                                    <h5>{course.id}</h5>
+                                    <h5>{course._id}</h5>
                                     <p class="card-text">
                                         2023_Spring {course.name} section 1
                                     </p>

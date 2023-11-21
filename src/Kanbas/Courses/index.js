@@ -12,10 +12,42 @@ import 'font-awesome/css/font-awesome.min.css';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-function Courses({courses}) {
+import { useState, useEffect } from "react";
+import axios from "axios";
+function Courses() {
     const { courseId } = useParams();
-    const course = courses.find((course) => course._id === courseId);
+    const URL = "http://localhost:4000/api/courses";
+
+    // const course = courses.find((course) => course._id === courseId);
+    const [course, setCourse] = useState({});
+
+    // const findCourseById = async (courseId) => {
+    //     console.log("inside of find course by id", courseId);
+    //     const response = await axios.get(
+    //         `${URL}/${courseId}`
+    //     );
+    //     console.log("RESPONSE: ",response.data);
+    //     setCourse(response.data);
+    // };
+
+    const findCourseById = async (courseId) => {
+        try {
+            console.log("inside of find course by id", courseId);
+            const response = await axios.get(`${URL}/${courseId}`);
+            console.log("RESPONSE: ", response.data);
+            setCourse(response.data);
+        } catch (error) {
+            console.error("Error fetching course:", error);
+            // Handle the error, display a message to the user, or perform other actions as needed
+        }
+    };
+
+    useEffect(() => {
+        findCourseById(courseId);
+    }, [courseId]);
+
+
+
     // const courses = db.courses;
     const location = useLocation();
     const pathname = location.pathname;

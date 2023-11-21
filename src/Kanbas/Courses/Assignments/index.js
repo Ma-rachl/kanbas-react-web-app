@@ -5,7 +5,7 @@ import "./index.css"
 import {Route, Routes} from "react-router";
 import AssignmentEditor from "./AssignmentEditor";
 import {setAssignment} from "./assignmentReducer";
-import {deleteModule, setModule} from "../Modules/modulesReducer";
+import {deleteModule, setModules} from "../Modules/modulesReducer";
 import {addAssignment} from "./assignmentReducer";
 import {useDispatch, useSelector} from "react-redux";
 function Assignments() {
