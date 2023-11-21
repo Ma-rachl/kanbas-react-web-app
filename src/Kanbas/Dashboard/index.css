@@ -1,0 +1,29 @@
+
+
+
+.delete-button{
+    width:70px;
+    height:8px;
+    /*margin-top: -4px;*/
+    border-style: none;
+    background-color: #ffffff;
+}
+
+
+.edit-button{
+    width:70px;
+    border-style: none;
+    background-color: #ffffff;
+}
+
+.button-left{
+    float: left;
+}
+
+.button-right{
+    float:right;
+}
+
+.button-row{
+
+}
