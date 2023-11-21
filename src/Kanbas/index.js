@@ -9,17 +9,10 @@ import store from "./store";
 import axios from "axios";
 
 function Kanbas() {
-    const [courses, setCourses] = useState(db.courses);
-
+    // const [courses, setCourses] = useState(db.courses);
+    const [courses, setCourses] = useState([]);
 
     const URL = "http://localhost:4000/api/courses";
-    // const findAllCourses = async () => {
-    //     const response = await axios.get(URL);
-    //     setCourses(response.data);
-    // };
-    // useEffect(() => {
-    //     findAllCourses();
-    // }, []);
 
 
 
@@ -69,6 +62,18 @@ function Kanbas() {
         );
         setCourse({ name: "" });
     };
+
+
+    const findAllCourses = async () => {
+
+        console.log("IN HERE",URL);
+        const response = await axios.get(URL);
+        setCourses(response.data);
+    };
+
+    useEffect(() => {
+        findAllCourses();
+    }, []);
 
 
     return (
