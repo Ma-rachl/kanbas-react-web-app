@@ -14,7 +14,7 @@ function Labs() {
             <Link to="a3">Assignment 3</Link>
             <Link to="a4">Assignment 4</Link>
             <Link to="a5">Assignment 5</Link>
-            <Nav/>
+            {/*<Nav/>*/}
          <Routes>
              <Route path="/"
                     element={<Navigate
