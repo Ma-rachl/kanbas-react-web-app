@@ -16,47 +16,18 @@ function Account() {
         setAccount(account);
     };
     useEffect(() => {
-        fetchAccount();
+        if (id) {
+            findUserById(id);
+        } else {
+            fetchAccount();
+        }
     }, []);
 
 
-    // const save = async () => {
-    //     await client.updateUser(account);
-    // };
-    //
-    //
-    // const fetchAccount = async () => {
-    //     //const account = await client.account();
-    //     try {
-    //
-    //         const account = await client.account();
-    //         setAccount(account)
-    //
-    //         //const response = await axios.post('/api/users/account');
-    //         //setAccount(response.data); // Set account data in state upon successful response
-    //     } catch (error) {
-    //         console.error('Error fetching account data:', error);
-    //         // Handle errors (optional): Log errors or implement error handling as needed
-    //     }
-    // };
-    // useEffect(() => {
-    //     if (id) {
-    //         findUserById(id);
-    //     } else {
-    //         fetchAccount();
-    //     }
-    // }, []);
-    //
-    // const findUserById = async (id) => {
-    //     const user = await client.findUserById(id);
-    //     setAccount(user);
-    // };
-
-
-
-
-
-
+    const findUserById = async (id) => {
+        const user = await client.findUserById(id);
+        setAccount(user);
+    };
 
 
     const signout = async () => {

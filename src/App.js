@@ -22,7 +22,7 @@ function App() {
                     <Route path="/Labs/*" element={<Labs />} />
                     <Route path="/Kanbas/*" element={<Kanbas />} />
                     <Route path="/hello" element={<HelloWorld />} />
-                    <Route path="/project/*" element={<Project />} />
+
 
 
 
