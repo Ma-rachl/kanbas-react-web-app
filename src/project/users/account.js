@@ -72,44 +72,82 @@ function Account() {
             {account && (
                 <div>
                     <div>
-                        <input value={account.password}
-                               onChange={(e) => setAccount({ ...account,
-                                   password: e.target.value })}/>
-                        <select onChange={(e) => setAccount({ ...account,
-                            role: e.target.value })}>
+                    {/*    <input value={account.password}*/}
+                    {/*           onChange={(e) => setAccount({ ...account,*/}
+                    {/*               password: e.target.value })}/>*/}
+                    {/*    <select onChange={(e) => setAccount({ ...account,*/}
+                    {/*        role: e.target.value })}>*/}
+                    {/*        <option value="USER">User</option>*/}
+                    {/*        <option value="ADMIN">Admin</option>*/}
+                    {/*        <option value="FACULTY">Faculty</option>*/}
+                    {/*        <option value="STUDENT">Student</option>*/}
+                    {/*    </select>*/}
+
+                    {/*</div>*/}
+                    {/*<div>*/}
+                    {/*    <input value={account.firstName}*/}
+                    {/*           placeholder="firstname"*/}
+                    {/*           onChange={(e) => setAccount({ ...account,*/}
+                    {/*               firstname: e.target.value })}/>*/}
+                    {/*</div>*/}
+                    {/*<div>*/}
+                    {/*    <input value={account.lastName}*/}
+                    {/*           placeholder="lastnmae"*/}
+                    {/*           onChange={(e) => setAccount({ ...account,*/}
+                    {/*               lastName: e.target.value })}/>*/}
+                    {/*</div>*/}
+                    {/*<div>*/}
+                    {/*    <input value={account.dob}*/}
+                    {/*           placeholder="date of birth"*/}
+                    {/*           onChange={(e) => setAccount({ ...account,*/}
+                    {/*               dob: e.target.value })}/>*/}
+                    {/*</div>*/}
+                    {/*<div>*/}
+                    {/*    <input value={account.email}*/}
+                    {/*           placeholder="email"*/}
+                    {/*           onChange={(e) => setAccount({ ...account,*/}
+                    {/*               email: e.target.value })}/>*/}
+                    {/*</div>*/}
+                        <select className="account-inputs form-select"
+                                value={account && account.role ? account.role : "USER"}
+                                onChange={(e) => setAccount({
+                                    ...account,
+                                    role: e.target.value
+                                })}>
                             <option value="USER">User</option>
                             <option value="ADMIN">Admin</option>
-                            <option value="FACULTY">Faculty</option>
-                            <option value="STUDENT">Student</option>
                         </select>
 
+                        <input className="account-inputs form-control" value={account.password} placeholder="password"
+                               onChange={(e) => setAccount({
+                                   ...account,
+                                   password: e.target.value
+                               })}/>
+                        <input className="account-inputs form-control" value={account.firstName} placeholder="firstname"
+                               onChange={(e) => setAccount({
+                                   ...account,
+                                   firstName: e.target.value
+                               })}/>
+                        <input className="account-inputs form-control" value={account.lastName} placeholder="lastname"
+                               onChange={(e) => setAccount({
+                                   ...account,
+                                   lastName: e.target.value
+                               })}/>
+                        <input className="account-inputs form-control" value={account.dob} placeholder="dob"
+                               onChange={(e) => setAccount({
+                                   ...account,
+                                   dob: e.target.value
+                               })}/>
+                        <input className="account-inputs form-control" value={account.email} placeholder="email"
+                               onChange={(e) => setAccount({
+                                   ...account,
+                                   email: e.target.value
+                               })}/>
+
+
+
+
                     </div>
-                    <div>
-                        <input value={account.firstName}
-                               onChange={(e) => setAccount({ ...account,
-                                   firstname: e.target.value })}/>
-                    </div>
-                    <div>
-                        <input value={account.lastName}
-                               onChange={(e) => setAccount({ ...account,
-                                   lastName: e.target.value })}/>
-                    </div>
-                    <div>
-                        <input value={account.dob}
-                               onChange={(e) => setAccount({ ...account,
-                                   dob: e.target.value })}/>
-                    </div>
-                    <div>
-                        <input value={account.email}
-                               onChange={(e) => setAccount({ ...account,
-                                   email: e.target.value })}/>
-                    </div>
-
-
-
-
-
-
 
                 </div>
 
