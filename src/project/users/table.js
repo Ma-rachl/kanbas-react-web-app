@@ -33,6 +33,11 @@ function UserTable() {
         }
     };
 
+    const signup = async () => {
+        await client.signup(user);
+
+    };
+
     const createUser = async () => {
         try {
             const newUser = await client.createUser(user);
@@ -46,7 +51,8 @@ function UserTable() {
 
 
 
-   // await client.signup(credentials);
+
+    // await client.signup(credentials);
 
     const fetchUsers = async () => {
         const users = await client.findAllUsers();

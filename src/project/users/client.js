@@ -1,6 +1,6 @@
 import axios from "axios";
 // export const BASE_API = "http://localhost:4000"
-export const BASE_API = "https://kanbas-node-server-app-4eyu.onrender.com"
+export const BASE_API = "https://kanbas-node-server-app-4eyu.onrender.com/api/users"
 //export const BASE_API ="https://kanbas-node-server--app-5f811db2e01f.herokuapp.com/" || "http://localhost:4000";
 //process.env.REACT_APP_BASE_API_URL;
 export const USERS_API = `${BASE_API}/api/users`;
