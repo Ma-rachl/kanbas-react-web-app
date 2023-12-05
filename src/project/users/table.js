@@ -43,6 +43,11 @@ function UserTable() {
     };
 
 
+
+
+
+   // await client.signup(credentials);
+
     const fetchUsers = async () => {
         const users = await client.findAllUsers();
         setUsers(users);
